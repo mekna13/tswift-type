@@ -1,0 +1,91 @@
+body{
+    background-image: url("https://saltandfresh.files.wordpress.com/2013/11/dsc_4816.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    margin-top:10%;
+    margin-left:20%;
+    margin-right:20%;
+}
+.paper{
+
+    background-image: url("paper.png");
+    padding-top: 10%;
+    padding-right: 5%;
+    padding-left:3%;
+    padding-bottom: 5%;
+    color:gray;
+    text-align: center;
+    /*display: none;*/
+}
+
+h1 , h2, h3{
+    color: black;
+    font-family: 'Special Elite', cursive;
+}
+
+li{
+    font-family: 'Special Elite', cursive;
+    list-style: none;
+    margin: 1%;
+}
+span{
+    font-family: 'Special Elite', cursive;
+}
+
+/* ======== modal section ========================= */
+
+.bg-modal{
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content{
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    padding:60px 10px 10px 10px;
+    background-image: url("paper.png");
+}
+
+button{
+    padding: 10px 20px 10px 20px;
+    margin:20px;
+    font-family: 'Special Elite', cursive;
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+
+/* ======== SCORE MODAL ==================*/
+
+.bg-modal2{
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content2{
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    padding:60px 10px 10px 10px;
+    background-image: url("paper.png");
+}
